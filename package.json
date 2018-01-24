@@ -1,0 +1,22 @@
+{
+  "name": "gdax-api-playthrough",
+  "version": "1.0.0",
+  "description": "Playing with the GDAX api order book",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "nyc --reporter=html --reporter=text mocha --recursive test"
+  },
+  "author": "JD",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "gdax": "git://github.com/coinbase/gdax-node",
+    "mocha": "^4.1.0",
+    "nyc": "^11.4.1",
+    "promise": "^8.0.1",
+    "sinon": "^4.1.3"
+  }
+}
